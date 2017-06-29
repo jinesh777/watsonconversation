@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "main": "app.js",
+  "config": {
+    "port": "3000"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "validate": "npm ls"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.17.2",
+    "uuid": "^3.0.1",
+    "vcap_services": "^0.3.4",
+    "watson-developer-cloud": "^2.32.1"
+  }
+}
