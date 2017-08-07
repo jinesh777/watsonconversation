@@ -2,8 +2,6 @@ var ConversationV1 = require('watson-developer-cloud/conversation/v1');
 var express = require('express');
 var bodyParser = require('body-parser')
 var maintainToneHistory = false;
-
-
 // The following requires are needed for logging purposes
 var workspace="<WorkSpaceid>";
 
